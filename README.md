@@ -1,6 +1,7 @@
 # Hector SLAM dengan TurtleBot3 di Gazebo
 
 Proyek ini adalah simulasi SLAM menggunakan algoritma **Hector SLAM** dan robot **TurtleBot3** di Gazebo. Simulasi bertujuan untuk membangun peta lingkungan secara real-time dengan data lidar tanpa menggunakan odometri.
+# Demo by Muhammad Thoriq Mubarak [4222111004]
 
 ## Cara Menjalankan Simulasi
 
