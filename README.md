@@ -19,14 +19,22 @@ sudo apt-get install ros-kinetic-turtlebot3
 sudo apt-get install ros-kinetic-hector-slam
 
 **MENJALANKAN**
+```bash
 export TURTLEBOT3_MODEL=waffle_pi
-
+```
+```bash
 roslaunch turtlebot3_gazebo turtlebot3_world.launch
-
+```
+```bash
 roslaunch turtlebot3_slam turtlebot3_slam.launch slam_methods:=hector
+```
 
 **PERGERAKAN**
+```bash
 roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+```
 
 **MENYIMPAN PETA**
+```bash
 rosrun map_server map_saver -f ~/map1
+```
