@@ -4,14 +4,15 @@ Proyek ini adalah simulasi SLAM menggunakan algoritma **Hector SLAM** dan robot 
 
 ## Cara Menjalankan Simulasi
 
-### Prasyarat
+### Bahan
 - **Ubuntu 16.04**
 - **ROS Kinetic**
 - **Gazebo**
 - **Paket TurtleBot3 dan Hector SLAM**
 
 **INSTALASI**
-$ sudo apt-get install ros-kinetic-turtlebot3
+```bash
+sudo apt-get install ros-kinetic-turtlebot3
 
 sudo apt-get install ros-kinetic-hector-slam
 
