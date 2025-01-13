@@ -13,6 +13,7 @@ Proyek ini adalah simulasi SLAM menggunakan algoritma **Hector SLAM** dan robot 
 **INSTALASI**
 ```bash
 sudo apt-get install ros-kinetic-turtlebot3
+```
 
 sudo apt-get install ros-kinetic-hector-slam
 
